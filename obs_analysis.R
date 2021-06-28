@@ -1,0 +1,19 @@
+library(tidyverse)
+library(lubridate)
+library(rvest)
+
+all_obs <- read_csv("data/all_obs.csv",  col_types = "Tcccccccc")
+
+
+all_obs %>% mutate(temp = parse_number(temp)) %>% 
+  ggplot(aes(x = obs_at, y = temp)) + geom_line()
+
+
+#all_obs %>%  count(weather) %>% pull(weather)
+
+weather_lookup <- tibble(weather = c("Cloudy" ,"Drizzle", "Fog" , "Heavy rain" , "Light rain" , "Mist"  ,         
+                                      "Overcast" ,  "Sunny day" , "Sunny intervals"),
+                         code = c(7,3,4,1,2,5,6, 9,8)) %>% arrange(code)
+
+all_obs %>% select(obs_at, weather) %>% left_join(weather_lookup) %>% 
+  ggplot(aes(x= obs_at, y = code)) + geom_point() + geom_line()
