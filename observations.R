@@ -9,7 +9,7 @@ obs_url <- "https://www.metoffice.gov.uk/weather/observations/gcwvp7zue"
 
 current_obs <- read_html(obs_url)
 
-#current_obs <- read_html("C:/Users/Mike/Dropbox/Zapier/observations2021-06-27T101336+0100.html")
+#current_obs <- read_html("C:/Users/Mike/Dropbox/Zapier/observations2021-06-28T050029+0100.html")
 
 
 
@@ -48,9 +48,8 @@ recent_obs <- bind_rows(yesterday_obs, today_obs) %>%
 
 
 
-all_obs <- read_csv("C:/Users/Mike/Documents/R/Weather/metoffice/all_obs.csv", 
-                    col_types = "Tcccccccc")
+all_obs <- read_csv("data/all_obs.csv",  col_types = "Tcccccccc")
 
 all_obs <- bind_rows(all_obs, recent_obs) %>% distinct()
 
-write_csv(all_obs,  "C:/Users/Mike/Documents/R/Weather/metoffice/all_obs.csv")
+write_csv(all_obs,  "data/all_obs.csv")
