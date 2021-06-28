@@ -338,3 +338,6 @@ obs_at,temp,wind,gust,visibility,humidity,pressure,pressure_trend,weather
 2021-06-28T19:00:00Z,17.1°,"SSE
 
 8",NA,E,75%,"1,017",R,Cloudy
+2021-06-28T20:00:00Z,16.3°,"S
+
+7",NA,VG,76%,"1,017",R,Cloudy
