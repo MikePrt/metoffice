@@ -320,3 +320,9 @@ obs_at,temp,wind,gust,visibility,humidity,pressure,pressure_trend,weather
 2021-06-28T13:00:00Z,19.9°,"N
 
 8",NA,VG,63%,"1,017",F,Sunny intervals
+2021-06-28T14:00:00Z,20.8°,"N
+
+5",NA,E,59%,"1,017",F,Sunny intervals
+2021-06-28T15:00:00Z,21.6°,"NNW
+
+6",NA,E,57%,"1,017",F,Sunny intervals
