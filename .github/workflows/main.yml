@@ -1,10 +1,9 @@
 # Hourly scraping
-name: nifty50scrape
+name: metoffice_obs
 
 # Controls when the action will run.
 on:
-  schedule:
-    - cron:  '0 13 * * *'
+  workflow_dispatch:
 
 
 jobs: 
@@ -24,8 +23,8 @@ jobs:
         R -e 'install.packages("lubridate")'
         R -e 'install.packages("rvest")'
     # Run R script
-    - name: Scrape
-      run: Rscript nifty50_scraping.R
+    - name: Scrape_metoffice_obs
+      run: Rscript observations.R
       
  # Add new files in data folder, commit along with other modified files, push
     - name: Commit files
