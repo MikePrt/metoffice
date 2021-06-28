@@ -341,3 +341,12 @@ obs_at,temp,wind,gust,visibility,humidity,pressure,pressure_trend,weather
 2021-06-28T20:00:00Z,16.3°,"S
 
 7",NA,VG,76%,"1,017",R,Cloudy
+2021-06-28T21:00:00Z,16.1°,"S
+
+5",NA,VG,80%,"1,017",R,Cloudy
+2021-06-28T22:00:00Z,15.5°,"SSE
+
+2",NA,VG,83%,"1,017",R,Overcast
+2021-06-28T23:00:00Z,14.6°,"N
+
+0",NA,VG,88%,"1,017",R,Overcast
