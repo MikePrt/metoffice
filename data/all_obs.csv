@@ -338,3 +338,21 @@ obs_at,temp,wind,gust,visibility,humidity,pressure,pressure_trend,weather
 2021-06-29T06:00:00Z,12.5°,"N
 
 6",NA,G,97%,"1,017",F,Mist
+2021-06-29T07:00:00Z,13.9°,"N
+
+5",NA,G,92%,"1,017",R,Sunny intervals
+2021-06-29T08:00:00Z,14.9°,"NNE
+
+8",NA,VG,87%,"1,017",R,Sunny intervals
+2021-06-29T09:00:00Z,16.3°,"N
+
+8",NA,VG,76%,"1,017",R,Sunny intervals
+2021-06-29T10:00:00Z,17.9°,"NNE
+
+9",NA,VG,63%,"1,018",R,Sunny intervals
+2021-06-29T11:00:00Z,19.1°,"NNE
+
+9",NA,E,57%,"1,018",R,Sunny intervals
+2021-06-29T12:00:00Z,20.2°,"NNE
+
+11",NA,E,52%,"1,018",R,Sunny intervals
