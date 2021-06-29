@@ -4,7 +4,7 @@ name: metoffice_obs
 # Controls when the action will run.
 on:
   schedule:
-    - cron:  '15 */2 * * *'
+    - cron:  '15 */6 * * *'
 
 
 jobs: 
