@@ -350,3 +350,12 @@ obs_at,temp,wind,gust,visibility,humidity,pressure,pressure_trend,weather
 2021-06-28T23:00:00Z,14.6°,"N
 
 0",NA,VG,88%,"1,017",R,Overcast
+2021-06-29T00:00:00Z,13.7°,"N
+
+2",NA,G,92%,"1,017",R,Overcast
+2021-06-29T01:00:00Z,13.3°,"N
+
+3",NA,G,94%,"1,017",F,Mist
+2021-06-29T02:00:00Z,12.8°,"NNE
+
+2",NA,G,95%,"1,017",F,Mist
