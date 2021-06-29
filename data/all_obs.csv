@@ -368,3 +368,6 @@ obs_at,temp,wind,gust,visibility,humidity,pressure,pressure_trend,weather
 2021-06-29T05:00:00Z,11.3°,"NNW
 
 5",NA,M,97%,"1,017",F,Mist
+2021-06-29T06:00:00Z,12.5°,"N
+
+6",NA,G,97%,"1,017",F,Mist
