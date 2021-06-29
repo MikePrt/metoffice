@@ -2,7 +2,12 @@ library(tidyverse)
 library(lubridate)
 library(rvest)
 
-all_obs <- read_csv("data/all_obs.csv",  col_types = "Tcccccccc")
+all_obs <- read_csv("data/all_obs.csv",  col_types = "Tcccccccc", na = c("", "NA", "-"))
+
+
+all_obs %>% select(obs_at) %>% mutate(delta_hr = c(NA, diff(obs_at))) %>% 
+  filter(delta_hr != 1)
+
 
 
 all_obs %>% mutate(temp = parse_number(temp)) %>% 
