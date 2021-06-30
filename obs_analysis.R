@@ -28,3 +28,11 @@ weather_lookup <- tibble(weather = c("Cloudy" ,"Drizzle", "Fog" , "Heavy rain" ,
 
 all_obs %>% select(obs_at, weather) %>% left_join(weather_lookup) %>% 
   ggplot(aes(x= obs_at, y = code)) + geom_point() + geom_line()
+
+
+all_forecasts <- read_csv("data/all_forecasts.csv",  col_types = "TTccccccccc", na = c("", "NA", "-"))
+
+
+## join forecast with observations
+
+combined_forecast_obs <- inner_join(all_forecasts, all_obs, by = c("forecast_for" = "obs_at" ) )
