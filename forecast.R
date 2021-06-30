@@ -13,7 +13,8 @@ base_url <- "https://www.metoffice.gov.uk/weather/forecast/gcwvp7zue#?date="
 tom_forecast <- read_html(paste0(base_url, tom))
 tod_forecast <- read_html(paste0(base_url, tod))
 
-time_scraped <- now()
+time_scraped <- now(tzone = "Europe/London")
+
 hour_scraped <- paste0(hour(time_scraped), ":00")
 
 weather_type_tom <- tom_forecast %>% html_elements(".print-wide .step-symbol .icon") %>% 
