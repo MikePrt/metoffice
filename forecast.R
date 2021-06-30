@@ -40,9 +40,13 @@ forecast <- tom_forecast %>% html_elements(xpath = paste0('//*[@id="',tom,'"]/ta
          forecast_for = ymd_hm(paste(tom, time))) %>% 
   select(-time)
 
-write_csv(forecast,  "data/forecast.csv")
+#write_csv(forecast,  "data/all_forecasts.csv")
 
+all_forecasts <- read_csv("data/all_forecasts.csv",  col_types = "TTccccccccc")
 
+all_forecasts <- bind_rows(all_forecasts, forecast)
+
+write_csv(all_forecasts,  "data/all_forecasts.csv")
 
  
  
