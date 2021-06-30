@@ -410,3 +410,24 @@ obs_at,temp,wind,gust,visibility,humidity,pressure,pressure_trend,weather
 2021-06-30T06:00:00Z,11.4°,"N
 
 11",NA,VG,89%,"1,018",R,Overcast
+2021-06-30T07:00:00Z,11.1°,"N
+
+10",NA,VG,92%,"1,019",R,Overcast
+2021-06-30T08:00:00Z,12.0°,"N
+
+9",NA,VG,88%,"1,019",R,Cloudy
+2021-06-30T09:00:00Z,12.2°,"NNW
+
+11",NA,VG,85%,"1,019",R,Cloudy
+2021-06-30T10:00:00Z,13.1°,"N
+
+10",NA,E,80%,"1,018",F,Cloudy
+2021-06-30T11:00:00Z,13.1°,"NNE
+
+10",NA,E,82%,"1,019",R,Cloudy
+2021-06-30T12:00:00Z,13.2°,"N
+
+10",NA,E,81%,"1,019",R,Cloudy
+2021-06-30T13:00:00Z,13.6°,"N
+
+10",NA,E,77%,"1,019",R,Cloudy
