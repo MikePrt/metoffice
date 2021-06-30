@@ -55,7 +55,7 @@ forecast_tod <- tod_forecast %>% html_elements(xpath = paste0('//*[@id="',tod,'"
   html_table() %>% 
   .[[1]] %>% 
   slice(c(3,5,7,9,11,13,15,17)) %>% 
-  rbind(weather_type) %>% 
+  rbind(weather_type_tod) %>% 
   pivot_longer(-1) %>%
   pivot_wider(names_from = 1, values_from = value) %>% 
   `colnames<-` (c("time", 
