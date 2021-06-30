@@ -16,7 +16,7 @@ tod_forecast <- read_html(paste0(base_url, tod))
 time_scraped <- now()
 hour_scraped <- paste0(hour(time_scraped), ":00")
 
-weather_type_tom <- tom_forecast %>% html_elements(".print-wide+ .print-wide .step-symbol .icon") %>% 
+weather_type_tom <- tom_forecast %>% html_elements(".print-wide .step-symbol .icon") %>% 
   html_attr(name = "title") %>% 
   c("weather", .)
 
