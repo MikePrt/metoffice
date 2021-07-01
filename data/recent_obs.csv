@@ -1,0 +1,76 @@
+obs_at,tz,temp,wind,visibility,humidity,pressure,pressure_trend,weather
+2021-06-30T08:00:00Z,Europe/London,12.2°,"NNW
+
+11",VG,85%,"1,019",R,Cloudy
+2021-06-30T09:00:00Z,Europe/London,13.1°,"N
+
+10",E,80%,"1,018",F,Cloudy
+2021-06-30T10:00:00Z,Europe/London,13.1°,"NNE
+
+10",E,82%,"1,019",R,Cloudy
+2021-06-30T11:00:00Z,Europe/London,13.2°,"N
+
+10",E,81%,"1,019",R,Cloudy
+2021-06-30T12:00:00Z,Europe/London,13.6°,"N
+
+10",E,77%,"1,019",R,Cloudy
+2021-06-30T13:00:00Z,Europe/London,14.1°,"NNE
+
+8",E,77%,"1,019",R,Overcast
+2021-06-30T14:00:00Z,Europe/London,14.7°,"N
+
+8",E,75%,"1,018",F,Cloudy
+2021-06-30T15:00:00Z,Europe/London,14.2°,"NE
+
+9",E,79%,"1,019",F,Cloudy
+2021-06-30T16:00:00Z,Europe/London,16.1°,"NNE
+
+11",VG,72%,"1,018",F,Sunny intervals
+2021-06-30T17:00:00Z,Europe/London,15.7°,"NNE
+
+10",VG,69%,"1,018",F,Sunny intervals
+2021-06-30T18:00:00Z,Europe/London,16.0°,"NNE
+
+8",VG,70%,"1,018",F,Sunny day
+2021-06-30T19:00:00Z,Europe/London,14.4°,"ENE
+
+7",VG,74%,"1,018",F,Sunny day
+2021-06-30T20:00:00Z,Europe/London,13.6°,"NNE
+
+8",G,78%,"1,019",R,Sunny day
+2021-06-30T21:00:00Z,Europe/London,11.4°,"NE
+
+5",G,86%,"1,019",R,Clear night
+2021-06-30T22:00:00Z,Europe/London,10.3°,"N
+
+5",G,90%,"1,019",R,Cloudy
+2021-06-30T23:00:00Z,Europe/London,8.9°,"NW
+
+5",G,95%,"1,019",R,Partly cloudy (night)
+2021-07-01T00:00:00Z,Europe/London,9.9°,"N
+
+7",G,95%,"1,019",R,Clear night
+2021-07-01T01:00:00Z,Europe/London,9.1°,"NNW
+
+5",G,95%,"1,019",F,Mist
+2021-07-01T02:00:00Z,Europe/London,8.9°,"N
+
+5",M,97%,"1,019",F,Mist
+2021-07-01T03:00:00Z,Europe/London,8.7°,"NW
+
+6",M,98%,"1,019",F,Mist
+2021-07-01T04:00:00Z,Europe/London,9.2°,"NNW
+
+6",G,95%,"1,019",F,Sunny day
+2021-07-01T05:00:00Z,Europe/London,9.4°,"NW
+
+6",G,94%,"1,019",S,Sunny day
+2021-07-01T06:00:00Z,Europe/London,10.3°,"NNW
+
+7",G,92%,"1,019",S,Sunny day
+2021-07-01T07:00:00Z,Europe/London,12.1°,"N
+
+10",VG,81%,"1,019",R,Cloudy
+2021-07-01T08:00:00Z,Europe/London,13.7°,"N
+
+8",VG,77%,"1,019",S,Cloudy

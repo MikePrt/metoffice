@@ -41,7 +41,7 @@ forecast_tom <- tom_forecast %>% html_elements(xpath = paste0('//*[@id="',tom,'"
                   "fcst_UV", 
                   "fcst_weather")) %>% 
   mutate(forecast_at = time_scraped, .before = time,
-         forecast_for = ymd_hm(paste(tom, time))) %>% 
+         forecast_for = ymd_hm(paste(tom, time), tz= "Europe/London")) %>% 
   select(-time)
 
 
@@ -71,7 +71,7 @@ forecast_tod <- tod_forecast %>% html_elements(xpath = paste0('//*[@id="',tod,'"
                   "fcst_weather")) %>% 
   mutate(time = ifelse(time == "Now", hour_scraped, time),
          forecast_at = time_scraped, .before = time,
-         forecast_for = ymd_hm(paste(tod, time))) %>% 
+         forecast_for = ymd_hm(paste(tod, time), tz= "Europe/London")) %>% 
   select(-time)
 
 forecast <- bind_rows(forecast_tod, forecast_tom)

@@ -46,8 +46,8 @@ recent_obs <- bind_rows(yesterday_obs, today_obs) %>%
          pressure_trend = `Pressure tendency`,
          visibility = Visibility,
          humidity = Humidity) %>% 
-  mutate(obs_at = ymd_hm(paste(date, time), tz = "Europe/London"), .before = temp, .keep = "unused") 
-
+  mutate(obs_at = ymd_hm(paste(date, time), tz = "Europe/London"), .before = temp, .keep = "unused")
+  
 
 
 all_obs <- read_csv("data/all_obs.csv",  col_types = "Tcccccccc")
