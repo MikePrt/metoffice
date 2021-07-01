@@ -10,7 +10,7 @@ range(all_obs$obs_at)
 
 
 all_forecasts <- read_csv("data/all_forecasts.csv",  col_types = "TTccccccccc") %>% 
-  mutate(time_diff = round(difftime( forecast_for, forecast_at,  units = "hours")))
+  mutate(time_diff = round(difftime( forecast_for, forecast_at,  units = "hours")), .after = forecast_for)
 
 range(all_forecasts$forecast_for)
 
@@ -35,13 +35,18 @@ all_obs %>% select(obs_at, weather) %>% left_join(weather_lookup) %>%
   ggplot(aes(x= obs_at, y = code)) + geom_point() + geom_line()
 
 
-all_forecasts <- read_csv("data/all_forecasts.csv",  col_types = "TTccccccccc", na = c("", "NA", "-")) %>% 
-  mutate(time_diff = round(difftime( forecast_for, forecast_at,  units = "hours")))
 
 
 ## join forecast with observations
 
-combined_forecast_obs <- inner_join(all_forecasts, all_obs, by = c("forecast_for" = "obs_at" ) )
+# time issues should be sorted from about midday on 1/7/21 
+
+combined_forecast_obs <- inner_join(all_forecasts, all_obs, by = c("forecast_for" = "obs_at" ) ) %>% 
+  select(forecast_at, forecast_for, time_diff, fcst_weather, weather ) %>% 
+  mutate(accurate = (fcst_weather == weather)) %>% 
+  arrange(forecast_for)
+
+combined_forecast_obs %>% summarise(pct_accurate = mean(accurate))
 
 
 
