@@ -3,6 +3,7 @@ library(tidyr)
 library(readr)
 library(lubridate)
 library(rvest)
+library(stringr)
 
 
 tod <-   format(today(), format = "%Y-%m-%d")
@@ -74,7 +75,11 @@ forecast_tod <- tod_forecast %>% html_elements(xpath = paste0('//*[@id="',tod,'"
          forecast_for = ymd_hm(paste(tod, time), tz= "Europe/London")) %>% 
   select(-time)
 
-forecast <- bind_rows(forecast_tod, forecast_tom)
+forecast <- bind_rows(forecast_tod, forecast_tom) %>% 
+  mutate(fcst_wind = str_replace(fcst_wind, "\n\n", replacement ="_"))
+
+
+
 
 
 #write_csv(forecast,  "data/all_forecasts.csv")
