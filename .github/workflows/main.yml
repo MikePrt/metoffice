@@ -25,6 +25,7 @@ jobs:
         R -e 'install.packages("readr")'
         R -e 'install.packages("lubridate")'
         R -e 'install.packages("rvest")'
+        R -e 'install.packages("stringr")'
     # Run R script
     - name: Scrape_metoffice_obs
       run: Rscript observations.R
