@@ -24,6 +24,14 @@ recent_obs_from_csv2 %>% select(obs_at) %>% mutate(tz = attr(obs_at,"tzone")) %>
 
 all_obs %>% select(obs_at) %>% mutate(tz = attr(obs_at,"tzone")) %>% View()
 
+forecast %>% select(forecast_for) %>% mutate(tz = attr(forecast_for,"tzone")) %>% View()
+
+
+all_forecasts <- read_csv("data/all_forecasts.csv",  col_types = "TTccccccccc")
+
+all_forecasts <- all_forecasts %>% mutate(fcst_wind = str_replace(fcst_wind, "\r\n\r\n", replacement ="_"))
+
+
 #all_obs <- all_obs %>% mutate(obs_at = force_tz(obs_at, tzone = "Europe/London"))
 
 ## Analysis starts here
