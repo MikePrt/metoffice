@@ -470,3 +470,12 @@ obs_at,temp,wind,gust,visibility,humidity,pressure,pressure_trend,weather
 2021-07-01T02:00:00Z,9.1°,"NNW
 
 5",NA,G,95%,"1,019",F,Mist
+2021-07-01T03:00:00Z,8.9°,"N
+
+5",NA,M,97%,"1,019",F,Mist
+2021-07-01T04:00:00Z,8.7°,"NW
+
+6",NA,M,98%,"1,019",F,Mist
+2021-07-01T05:00:00Z,9.2°,"NNW
+
+6",NA,G,95%,"1,019",F,Sunny day
