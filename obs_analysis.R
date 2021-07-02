@@ -42,6 +42,7 @@ all_obs %>% select(obs_at, weather) %>% left_join(weather_lookup) %>%
 # time issues should be sorted from about midday on 1/7/21 
 
 combined_forecast_obs <- inner_join(all_forecasts, all_obs, by = c("forecast_for" = "obs_at" ) ) %>% 
+  filter(forecast_at >= ymd_hms("2021-07-01 12:00:00")) %>% 
   select(forecast_at, forecast_for, time_diff, fcst_weather, weather ) %>% 
   mutate(accurate = (fcst_weather == weather)) %>% 
   arrange(forecast_for)

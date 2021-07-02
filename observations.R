@@ -3,6 +3,7 @@ library(tidyr)
 library(readr)
 library(lubridate)
 library(rvest)
+library(stringr)
 
 # Get current observations - last 24 hours
 
