@@ -3,7 +3,8 @@ name: metoffice_obs
 
 # Controls when the action will run.
 on:
-  workflow_dispatch:
+  schedule:
+    - cron:  '15 */6 * * *'
 
 
 jobs: 
