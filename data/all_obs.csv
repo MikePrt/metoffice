@@ -204,3 +204,7 @@ obs_at,temp,wind,gust,visibility,humidity,pressure,pressure_trend,weather
 2021-07-02T23:00:00Z,13.7°,S_5,NA,G,91%,"1,014",F,Clear night
 2021-07-03T00:00:00Z,13.5°,SW_5,NA,M,94%,"1,014",F,Mist
 2021-07-03T01:00:00Z,14.7°,SSE_5,NA,G,91%,"1,014",F,Overcast
+2021-07-03T02:00:00Z,14.3°,SE_3,NA,M,91%,"1,014",F,Mist
+2021-07-03T03:00:00Z,14.2°,S_3,NA,M,93%,"1,013",F,Mist
+2021-07-03T04:00:00Z,14.5°,S_5,NA,M,92%,"1,013",F,Mist
+2021-07-03T05:00:00Z,14.4°,S_3,NA,M,92%,"1,013",F,Mist
