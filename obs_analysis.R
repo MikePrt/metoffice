@@ -4,7 +4,10 @@ library(rvest)
 
 ## All times in UTC
 
-all_obs <- read_csv("data/all_obs.csv",  col_types = "Tcccccccc", na = c("", "NA", "-"))
+## Preprocessing
+
+all_obs <- read_csv("data/all_obs.csv",  col_types = "Tcccccccc", na = c("", "NA", "-")) %>% 
+  mutate(temp = parse_number(temp), rain = weather %in% c("Drizzle", "Heavy rain" , "Light rain"))
 
 range(all_obs$obs_at)
 
@@ -14,10 +17,21 @@ all_forecasts <- read_csv("data/all_forecasts.csv",  col_types = "TTccccccccc") 
 
 range(all_forecasts$forecast_for)
 
-## Analysis starts here
+## Combination of observation data with EA rainfall data
 
-all_obs <- all_obs %>% mutate(temp = parse_number(temp),
-                              rain = weather %in% c("Drizzle", "Heavy rain" , "Light rain"))
+EA_rain <- read_csv("C:/Users/Mike/Documents/R/Weather/hist.csv") %>% 
+  mutate(hr = ceiling_date(dateTime, unit = "hour", change_on_boundary = NULL))
+
+EA_rain_hr <- EA_rain %>% group_by(hr) %>% summarise(rain_hr = sum(value))
+
+obs_rain <- all_obs %>% select(obs_at, weather, rain) %>% left_join(EA_rain_hr, by = c("obs_at" = "hr" ))
+
+## Exceptions
+obs_rain %>% filter(rain == FALSE, rain_hr > 0)
+obs_rain %>% filter(rain == TRUE, rain_hr == 0)
+
+
+## Analysis starts here
 
 all_obs %>% summarise(pct_rain = mean(rain))
 
@@ -27,12 +41,6 @@ all_obs %>%
 
 all_obs %>%  count(weather) %>% pull(weather)
 
-weather_lookup <- tibble(weather = c("Cloudy" ,"Drizzle", "Fog" , "Heavy rain" , "Light rain" , "Mist"  ,         
-                                      "Overcast" ,  "Sunny day" , "Sunny intervals"),
-                         code = c(7,3,4,1,2,5,6, 9,8)) %>% arrange(code)
-
-all_obs %>% select(obs_at, weather) %>% left_join(weather_lookup) %>% 
-  ggplot(aes(x= obs_at, y = code)) + geom_point() + geom_line()
 
 
 
