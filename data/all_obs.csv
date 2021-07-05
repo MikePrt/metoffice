@@ -252,3 +252,6 @@ obs_at,temp,wind,gust,visibility,humidity,pressure,pressure_trend,weather
 2021-07-04T23:00:00Z,14.9°,SW_2,NA,M,99%,"1,002",F,Heavy rain
 2021-07-05T00:00:00Z,14.8°,SW_2,NA,M,99%,"1,002",F,Overcast
 2021-07-05T01:00:00Z,14.9°,S_3,NA,P,99%,"1,002",F,Heavy rain
+2021-07-05T02:00:00Z,14.9°,S_6,NA,P,99%,"1,001",F,Heavy rain
+2021-07-05T03:00:00Z,13.9°,W_7,NA,M,96%,"1,001",F,Heavy rain
+2021-07-05T04:00:00Z,13.8°,SSE_7,NA,VG,96%,"1,001",F,Cloudy
