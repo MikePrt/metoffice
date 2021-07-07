@@ -292,3 +292,11 @@ obs_at,temp,wind,gust,visibility,humidity,pressure,pressure_trend,weather
 2021-07-06T15:00:00Z,15.3°,W_11,NA,E,81%,997,R,Cloudy
 2021-07-06T16:00:00Z,15.4°,W_9,NA,E,79%,997,R,Cloudy
 2021-07-06T17:00:00Z,16.8°,WSW_13,NA,E,70%,998,R,Cloudy
+2021-07-06T18:00:00Z,17.5°,W_13,NA,VG,62%,998,R,Cloudy
+2021-07-06T19:00:00Z,16.6°,W_10,NA,VG,67%,999,R,Cloudy
+2021-07-06T20:00:00Z,14.3°,SW_6,NA,VG,77%,"1,000",R,Sunny intervals
+2021-07-06T21:00:00Z,13.9°,SSW_7,NA,G,85%,"1,000",R,Clear night
+2021-07-06T22:00:00Z,13.5°,SSE_5,NA,VG,87%,"1,001",R,Clear night
+2021-07-06T23:00:00Z,13.6°,SSW_7,NA,E,87%,"1,001",R,Partly cloudy (night)
+2021-07-07T00:00:00Z,11.3°,SSE_1,NA,VG,90%,"1,002",R,Clear night
+2021-07-07T01:00:00Z,11.4°,N_0,NA,VG,96%,"1,002",R,Cloudy
