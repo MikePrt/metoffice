@@ -334,3 +334,10 @@ obs_at,temp,wind,gust,visibility,humidity,pressure,pressure_trend,weather
 2021-07-08T09:00:00Z,18.0°,W_8,NA,E,66%,"1,018",R,Sunny day
 2021-07-08T10:00:00Z,18.5°,W_10,NA,E,66%,"1,018",R,Sunny intervals
 2021-07-08T11:00:00Z,20.2°,W_9,NA,E,63%,"1,018",R,Sunny intervals
+2021-07-08T12:00:00Z,19.6°,W_8,NA,E,58%,"1,018",R,Sunny intervals
+2021-07-08T13:00:00Z,20.7°,W_10,NA,E,56%,"1,018",R,Sunny intervals
+2021-07-08T14:00:00Z,20.7°,W_9,NA,E,58%,"1,018",R,Sunny intervals
+2021-07-08T15:00:00Z,20.4°,W_10,NA,E,57%,"1,019",R,Sunny intervals
+2021-07-08T16:00:00Z,20.8°,W_9,NA,E,54%,"1,019",R,Sunny day
+2021-07-08T17:00:00Z,21.4°,W_6,NA,E,52%,"1,019",R,Sunny intervals
+2021-07-08T18:00:00Z,21.0°,W_7,NA,E,56%,"1,019",R,Sunny day
