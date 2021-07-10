@@ -370,3 +370,9 @@ obs_at,temp,wind,gust,visibility,humidity,pressure,pressure_trend,weather
 2021-07-09T21:00:00Z,15.7°,NNE_5,NA,G,88%,"1,019",R,Partly cloudy (night)
 2021-07-09T22:00:00Z,15.8°,NNW_5,NA,M,91%,"1,019",R,Mist
 2021-07-09T23:00:00Z,15.4°,N_6,NA,M,93%,"1,019",R,Mist
+2021-07-10T00:00:00Z,15.1°,N_3,NA,P,96%,"1,019",F,Heavy rain
+2021-07-10T01:00:00Z,14.8°,NNE_3,NA,P,99%,"1,019",F,Heavy rain
+2021-07-10T02:00:00Z,14.8°,N_5,NA,P,99%,"1,018",F,Cloudy
+2021-07-10T03:00:00Z,14.6°,N_6,NA,P,100%,"1,017",F,Overcast
+2021-07-10T04:00:00Z,14.5°,N_6,NA,P,100%,"1,017",F,Mist
+2021-07-10T05:00:00Z,14.8°,N_5,NA,P,99%,"1,017",F,Mist
