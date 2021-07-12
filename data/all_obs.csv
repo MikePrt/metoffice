@@ -413,3 +413,8 @@ obs_at,temp,wind,gust,visibility,humidity,pressure,pressure_trend,weather
 2021-07-11T16:00:00Z,20.8°,SE_8,NA,E,62%,"1,013",F,Overcast
 2021-07-11T17:00:00Z,20.4°,SSE_11,NA,E,65%,"1,013",F,Overcast
 2021-07-11T18:00:00Z,19.7°,SSE_8,NA,E,67%,"1,013",F,Sunny intervals
+2021-07-11T19:00:00Z,19.1°,SE_10,NA,VG,76%,"1,013",F,Cloudy
+2021-07-11T20:00:00Z,18.4°,SE_6,NA,VG,80%,"1,013",R,Overcast
+2021-07-11T21:00:00Z,17.8°,SE_5,NA,VG,83%,"1,013",R,Overcast
+2021-07-11T22:00:00Z,16.9°,SE_5,NA,G,87%,"1,013",R,Overcast
+2021-07-11T23:00:00Z,16.3°,ESE_3,NA,G,89%,"1,013",S,Overcast
