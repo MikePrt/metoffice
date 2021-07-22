@@ -664,3 +664,10 @@ obs_at,temp,wind,gust,visibility,humidity,pressure,pressure_trend,weather
 2021-07-22T03:00:00Z,14.8°,S_5,NA,M,96%,"1,024",F,Mist
 2021-07-22T04:00:00Z,14.0°,SW_3,NA,M,97%,"1,024",F,Mist
 2021-07-22T05:00:00Z,14.3°,SSW_2,NA,M,98%,"1,024",F,Mist
+2021-07-22T06:00:00Z,15.3°,SW_3,NA,M,99%,"1,024",R,Mist
+2021-07-22T07:00:00Z,16.1°,S_2,NA,M,96%,"1,024",R,Mist
+2021-07-22T08:00:00Z,17.2°,WSW_3,NA,M,93%,"1,024",R,Cloudy
+2021-07-22T09:00:00Z,19.8°,N_1,NA,VG,84%,"1,024",F,Sunny day
+2021-07-22T10:00:00Z,23.1°,NNE_5,NA,VG,71%,"1,024",F,Sunny day
+2021-07-22T11:00:00Z,25.3°,NNE_5,NA,VG,64%,"1,024",F,Sunny day
+2021-07-22T12:00:00Z,25.5°,NNE_6,NA,VG,60%,"1,023",F,Sunny day
