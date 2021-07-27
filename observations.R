@@ -50,6 +50,17 @@ recent_obs <- bind_rows(yesterday_obs, today_obs) %>%
   mutate(obs_at = ymd_hm(paste(date, time), tz = "Europe/London"), .before = temp, .keep = "unused") %>% 
   mutate(wind = str_replace(wind, "\n\n", replacement ="_"))
   
+# recent_obs <- yesterday_obs %>% 
+#   mutate(weather = weather_obs) %>% 
+#   rename(time = name,
+#          temp = `Temperature in degrees Celsius`,
+#          wind = `Wind direction and speed in miles per hour`,
+#          pressure = `Pressure in hectopascals`,
+#          pressure_trend = `Pressure tendency`,
+#          visibility = Visibility,
+#          humidity = Humidity) %>% 
+#   mutate(obs_at = ymd_hm(paste(date, time), tz = "Europe/London"), .before = temp, .keep = "unused") %>% 
+#   mutate(wind = str_replace(wind, "\n\n", replacement ="_"))
 
 
 all_obs <- read_csv("data/all_obs.csv",  col_types = "Tcccccccc")
