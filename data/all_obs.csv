@@ -872,3 +872,9 @@ obs_at,temp,wind,gust,visibility,humidity,pressure,pressure_trend,weather,Wind g
 2021-07-29T09:00:00Z,17.5°,W_19,NA,E,71%,"1,003",R,Cloudy,29
 2021-07-29T10:00:00Z,17.7°,WSW_13,NA,E,70%,"1,003",R,Cloudy,31
 2021-07-29T11:00:00Z,19.9°,W_19,NA,E,66%,"1,003",R,Sunny intervals,29
+2021-07-29T12:00:00Z,20.1°,WSW_19,NA,E,65%,"1,004",R,Sunny intervals,30
+2021-07-29T13:00:00Z,18.8°,W_17,NA,E,68%,"1,004",R,Sunny intervals,–
+2021-07-29T14:00:00Z,18.5°,W_21,NA,E,69%,"1,005",R,Cloudy,30
+2021-07-29T15:00:00Z,18.7°,W_21,NA,E,69%,"1,005",R,Cloudy,32
+2021-07-29T16:00:00Z,17.8°,W_14,NA,E,72%,"1,005",R,Cloudy,30
+2021-07-29T17:00:00Z,17.6°,W_19,NA,E,67%,"1,005",R,Cloudy,29
