@@ -890,3 +890,9 @@ obs_at,temp,wind,gust,visibility,humidity,pressure,pressure_trend,weather,Wind g
 2021-07-30T03:00:00Z,13.4°,SE_5,NA,VG,94%,"1,005",F,Overcast,–
 2021-07-30T04:00:00Z,13.3°,ESE_3,NA,VG,93%,"1,004",F,Overcast,–
 2021-07-30T05:00:00Z,12.8°,SSE_3,NA,G,96%,"1,004",F,Cloudy,–
+2021-07-30T06:00:00Z,13.0°,SSE_5,NA,G,97%,"1,004",F,Light rain,–
+2021-07-30T07:00:00Z,12.9°,SSE_3,NA,M,97%,"1,004",F,Light rain,–
+2021-07-30T08:00:00Z,13.6°,SSE_1,NA,M,96%,"1,004",F,Light rain,–
+2021-07-30T09:00:00Z,14.2°,NE_5,NA,G,96%,"1,004",F,Overcast,–
+2021-07-30T10:00:00Z,15.6°,NNE_8,NA,G,93%,"1,003",F,Cloudy,–
+2021-07-30T11:00:00Z,15.7°,N_10,NA,M,89%,"1,003",F,Light rain,–
