@@ -1535,3 +1535,8 @@ obs_at,temp,wind,gust,visibility,humidity,pressure,pressure_trend,weather,Wind g
 2021-08-18T10:00:00Z,19.6°,WNW_14,NA,E,63%,"1,014",F,Sunny day,–
 2021-08-18T11:00:00Z,21.5°,WNW_14,NA,E,62%,"1,013",F,Sunny intervals,–
 2021-08-18T12:00:00Z,21.4°,WNW_19,NA,E,63%,"1,013",F,Sunny intervals,29
+2021-08-18T13:00:00Z,21.7°,W_14,NA,E,65%,"1,013",F,Sunny intervals,–
+2021-08-18T14:00:00Z,19.7°,W_18,NA,E,68%,"1,013",F,Cloudy,–
+2021-08-18T15:00:00Z,18.7°,W_16,NA,E,75%,"1,013",F,Cloudy,–
+2021-08-18T16:00:00Z,18.5°,W_16,NA,E,76%,"1,013",F,Cloudy,–
+2021-08-18T17:00:00Z,18.9°,W_13,NA,E,73%,"1,012",F,Overcast,–
