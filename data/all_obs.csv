@@ -1845,3 +1845,9 @@ obs_at,temp,wind,gust,visibility,humidity,pressure,pressure_trend,weather,Wind g
 2021-08-30T15:00:00Z,15.3°,NNE_15,NA,VG,78%,"1,030",R,Cloudy,NA
 2021-08-30T16:00:00Z,15.4°,NE_15,NA,VG,74%,"1,030",R,Overcast,NA
 2021-08-30T17:00:00Z,15.6°,NNE_14,NA,VG,70%,"1,030",R,Cloudy,NA
+2021-08-30T18:00:00Z,14.6°,NNE_14,NA,VG,76%,"1,030",R,Overcast,NA
+2021-08-30T19:00:00Z,14.1°,N_9,NA,VG,81%,"1,030",R,Overcast,NA
+2021-08-30T20:00:00Z,13.5°,N_13,NA,VG,81%,"1,031",R,Overcast,NA
+2021-08-30T21:00:00Z,13.0°,N_9,NA,VG,83%,"1,031",R,Cloudy,NA
+2021-08-30T22:00:00Z,12.5°,N_9,NA,M,88%,"1,031",R,Drizzle,NA
+2021-08-30T23:00:00Z,11.7°,N_7,NA,P,97%,"1,031",R,Drizzle,NA
