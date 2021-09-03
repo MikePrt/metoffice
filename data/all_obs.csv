@@ -1924,3 +1924,7 @@ obs_at,temp,wind,gust,visibility,humidity,pressure,pressure_trend,weather,Wind g
 2021-09-02T22:00:00Z,13.6°,NNE_8,NA,G,85%,"1,030",R,Overcast,NA
 2021-09-02T23:00:00Z,13.7°,NE_9,NA,G,83%,"1,029",F,Overcast,NA
 2021-09-03T00:00:00Z,13.4°,N_5,NA,G,86%,"1,029",F,Overcast,NA
+2021-09-03T01:00:00Z,13.2°,NNE_5,NA,G,88%,"1,028",F,Overcast,NA
+2021-09-03T02:00:00Z,13.3°,NNE_5,NA,G,87%,"1,028",F,Overcast,NA
+2021-09-03T03:00:00Z,13.2°,NNE_5,NA,G,86%,"1,027",F,Overcast,NA
+2021-09-03T04:00:00Z,13.0°,NE_7,NA,G,85%,"1,027",F,Overcast,NA
