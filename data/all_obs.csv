@@ -2044,3 +2044,8 @@ obs_at,temp,wind,gust,visibility,humidity,pressure,pressure_trend,weather,Wind g
 2021-09-07T22:00:00Z,19.3°,S_5,NA,M,81%,"1,018",R,Mist,NA
 2021-09-07T23:00:00Z,18.0°,S_2,NA,P,83%,"1,018",F,Mist,NA
 2021-09-08T00:00:00Z,17.2°,S_5,NA,VP,87%,"1,018",F,Clear night,NA
+2021-09-08T01:00:00Z,15.4°,SW_2,NA,P,95%,"1,018",F,Clear night,NA
+2021-09-08T02:00:00Z,14.8°,SW_2,NA,P,98%,"1,018",F,Mist,NA
+2021-09-08T03:00:00Z,13.9°,SSW_2,NA,VP,99%,"1,017",F,Fog,NA
+2021-09-08T04:00:00Z,13.5°,WSW_2,NA,P,100%,"1,017",F,Clear night,NA
+2021-09-08T05:00:00Z,12.2°,SW_2,NA,VP,99%,"1,017",F,Fog,NA
