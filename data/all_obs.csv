@@ -2056,3 +2056,6 @@ obs_at,temp,wind,gust,visibility,humidity,pressure,pressure_trend,weather,Wind g
 2021-09-08T10:00:00Z,22.0°,SSE_9,NA,G,58%,"1,015",F,Sunny day,NA
 2021-09-08T11:00:00Z,24.0°,SSE_8,NA,VG,53%,"1,015",F,Sunny day,NA
 2021-09-08T12:00:00Z,26.3°,S_13,NA,VG,48%,"1,014",F,Sunny day,NA
+2021-09-08T13:00:00Z,27.1°,SSE_11,NA,VG,41%,"1,013",F,Sunny day,NA
+2021-09-08T14:00:00Z,27.3°,SSE_11,NA,VG,41%,"1,013",F,Sunny intervals,NA
+2021-09-08T15:00:00Z,27.8°,SSE_13,NA,VG,43%,"1,012",F,Sunny intervals,NA
